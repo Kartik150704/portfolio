@@ -33,7 +33,7 @@ const Achievements = () => {
             }
     })
     const achievements = [
-        { title: ranking, content: `Ratings :${ratings} \n` },
+        { title: `${ranking} on Codeforces`, content: `Ratings :${ratings} \n` },
         { title: 'JEE Advanced Rank', content: 'AIR - 5389' },
         { title: 'JEE Mains Rank', content: 'AIR -2402' },
         { title: 'Coordinator of Coding Club', content: 'Organized coding events' },
